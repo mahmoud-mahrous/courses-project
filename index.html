@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assests/css/all.min.css" />
+  <link rel="stylesheet" href="assests/css/slick.css" />
+  <link rel="stylesheet" href="assests/css/slick-theme.css" />
+
+
+  <link rel="stylesheet" href="assests/css/style.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="sideBar">
+    <div class="w-100 d-block pr-3 py-2">
+      <i class="fas fa-times close"></i>
+    </div>
+    <div class="text-white">.</div>
+    <!-- first col -->
+    <div class="accordion" id="accordionExamples">
+      <div class="card">
+        <div class="card-header brdrBtn" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+          aria-controls="collapseOne" id="headingOne">
+          <p class="mb-0">Hoooooooooo</p>
+        </div>
+
+        <div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <a href="#" class="d-block my-2">ddddsdsss</a>
+            <a href="#" class="d-block my-2">ddddsdsss</a>
+            <a href="#" class="d-block my-2">ddddsdsss</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end col -->
+
+    <!-- sec col -->
+    <div class="accordion" id="accordionExamplez">
+      <div class="card">
+        <div class="card-header brdrBtn" data-toggle="collapse" data-target="#collapse2" aria-expanded="true"
+          aria-controls="collapseOne" id="headingOne">
+          <p class="mb-0">Hoooooooooo</p>
+        </div>
+
+        <div id="collapse2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <a href="#" class="d-block my-2">dsss</a>
+            <a href="#" class="d-block my-2">ddddsdsss</a>
+            <a href="#" class="d-block my-2">ddddsdsss</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sec col -->
+
+    <!-- third col -->
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header brdrBtn" data-toggle="collapse" data-target="#collapse3" aria-expanded="true"
+          aria-controls="collapseOne" id="headingOne">
+          <p class="mb-0">Hoooooooooo</p>
+        </div>
+
+        <div id="collapse3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <a href="#" class="d-block my-2">ddddsdsss</a>
+            <a href="#" class="d-block my-2">ddddsdsss</a>
+            <a href="#" class="d-block my-2">ddddsdsss</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- third col -->
+  </div>
+
+  <!-- start navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+
+      <i class="fas fa-align-justify py-1 px-3 open d-none hideI" id="open"></i>
+      <a class="navbar-brand" href="#">Navbar</a>
+      <p class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <!-- Dropdown Master menu links for nav Home -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategory" role="button"
+              data-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownCategory">
+              <a class="dropdown-item" href="#">
+                <!-- Default dropright button -->
+                <div class="btn-group dropright w-100">
+                  <span class="btn bg-transparent d-flex align-items-center justify-content-between dropdown-toggle"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Home 1
+                  </span>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <!-- Dropdown Master menu links for nav Courses -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategory" role="button"
+              data-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownCategory">
+              <!-- item 1 for Courses -->
+              <a class="dropdown-item" href="#">
+                <!-- Default dropright button -->
+                <div class="btn-group dropright w-100">
+                  <span class="btn bg-transparent d-flex align-items-center justify-content-between dropdown-toggle"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Search Courses in Grid
+                  </span>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </a>
+
+              <div class="dropdown-divider"></div>
+              <!-- item 2 for Courses -->
+
+              <a class="dropdown-item" href="#">
+                <!-- Default dropright button -->
+                <div class="btn-group dropright w-100">
+                  <span class="btn bg-transparent d-flex align-items-center justify-content-between dropdown-toggle"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Search Courses in List
+                  </span>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </a>
+
+              <div class="dropdown-divider"></div>
+              <!-- item 3 for Courses -->
+
+              <a class="dropdown-item" href="#">
+                <!-- Default dropright button -->
+                <div class="btn-group dropright w-100">
+                  <span class="btn bg-transparent d-flex align-items-center justify-content-between dropdown-toggle"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Courses Details
+                  </span>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <!-- item 4 for Courses -->
+
+              <a class="dropdown-item pl-2" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <!-- item 5 for Courses -->
+
+              <a class="dropdown-item pl-2" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <!-- Dropdown Master menu links for nav pages -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategory" role="button"
+              data-toggle="dropdown" aria-expanded="false">
+              pages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownCategory">
+              <!-- item 1 for Courses -->
+              <a class="dropdown-item" href="#">
+                <!-- Default dropright button -->
+                <div class="btn-group dropright w-100">
+                  <span class="btn bg-transparent d-flex align-items-center justify-content-between dropdown-toggle"
+                    data-toggle="dropdown" aria-expanded="false">
+                    Search Courses in Grid
+                  </span>
+                  <div class="dropdown-menu">
+                    <!-- Dropdown menu links -->
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </a>
+
+              <div class="dropdown-divider"></div>
+              <!-- item 2 for Courses -->
+
+              <a class="dropdown-item pl-2" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <!-- item 3 for Courses -->
+
+              <a class="dropdown-item pl-2" href="#">Something else here</a>
+
+              <div class="dropdown-divider"></div>
+              <!-- item 4 for Courses -->
+
+              <a class="dropdown-item pl-2" href="#">Something else here</a>
+
+              <div class="dropdown-divider"></div>
+              <!-- item 5 for Courses -->
+
+              <a class="dropdown-item pl-2" href="#">Something else here</a>
+
+              <div class="dropdown-divider"></div>
+              <!-- item 6 for Courses -->
+
+              <a class="dropdown-item pl-2" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dashboard</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-flex align-items-center ml-auto justify-content-center mx-4 pr-5">
+        <button class="btn bg-transparent mx-2 p-3 d-flex align-items-center justify-content-center">
+          <i class="fas fa-sign-in-alt pr-1 pt-1"></i><span>Sign In</span>
+        </button>
+        <button class="btn btn-success hideBtn ml-2 p-3">Get Started</button>
+      </div>
+    </div>
+
+
+  </nav>
+  <!-- end navbar -->
+
+  <!-- start header -->
+
+  <header>
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <div class="hCont">
+            <h1>
+              Discover The Most Exciting Online Courses.
+            </h1>
+            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore.</p>
+            <div class="row mt-5 justify-content-center">
+              <div class="col-lg-10 col-md-9 p-0">
+                <input type="text" class="form-control hInp p-3" placeholder="Search Your course">
+              </div>
+              <div class="col-lg-2 col-md-3 p-0 ">
+                <button type="" class="btn w-100 hBtn btn-success p-3">Search</button>
+              </div>
+            </div>
+
+            <div class="row pr-1 mt-3 w-100 justify-content-center numbers">
+              <div class="col-md-4 col-sm-3">
+                <h3>32M</h3>
+                <span class="text-dark font-weight-bold">
+                  Learners
+                </span>
+              </div>
+              <div class="col-md-4 col-sm-3">
+                <h3>100</h3>
+                <span  class="text-dark font-weight-bold">
+                  Countries
+                </span>
+              </div>
+              <div class="col-md-4 col-sm-3">
+                <h3>100</h3>
+                <span  class="text-dark font-weight-bold">
+                  Courses
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hImg">
+            <img src="assests/images/side-2.png" class="w-100" alt="">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <!-- end header -->
+
+
+
+<!-- start infos -->
+  <section class="infos">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+          <div class="info">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-2">
+                <div class="infoIcon d-flex justify-content-center align-items-center">
+                  <i class="fa fa-journal-whills"></i>
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div class="infoCont p-2">
+                  <h4>200+ Courses</h4>
+                  <p>Duis aute irure dolor in voluptate velit esse cillum labore .
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+          <div class="info">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-2">
+                <div class="infoIcon d-flex justify-content-center align-items-center">
+                  <i class="fa fa-business-time"></i>
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div class="infoCont p-2">
+                  <h4>200+ Courses</h4>
+                  <p>Duis aute irure dolor in voluptate velit esse cillum labore .
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+          <div class="info">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-2">
+                <div class="infoIcon d-flex justify-content-center align-items-center">
+                  <i class="fa fa-user-shield"></i>
+                </div>
+              </div>
+              <div class="col-md-10">
+                <div class="infoCont p-2">
+                  <h4>200+ Courses</h4>
+                  <p>Duis aute irure dolor in voluptate velit esse cillum labore .
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end infos -->
+
+
+<!-- start featureds -->
+  <section class="featureds py-5 text-center">
+
+    <h2>Explore Featured <span class="greenTeext">Categories</span></h2>
+    <p class="w-50 fP mx-auto my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <div class="container">
+      <div class="row ">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+          <a href="#">
+            <div class="featured">
+              <div class="featuredIcon d-flex justify-content-center align-items-center m-auto">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="featuredCont">
+                <h6 class="mt-1">Developmeent</h6>
+                <p>22 Leecturue</p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+          <a href="#">
+            <div class="featured">
+              <div class="featuredIcon d-flex justify-content-center align-items-center m-auto">
+                <i class="fa fa-window-restore"></i>
+              </div>
+              <div class="featuredCont">
+                <h6 class="mt-1">Web Design</h6>
+                <p>22 Leecturue</p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+
+
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+          <a href="#">
+            <div class="featured">
+              <div class="featuredIcon d-flex justify-content-center align-items-center m-auto">
+                <i class="fa fa-leaf"></i>
+              </div>
+              <div class="featuredCont">
+                <h6 class="mt-1">Life Style</h6>
+                <p>22 Leecturue</p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+          <a href="#">
+            <div class="featured">
+              <div class="featuredIcon d-flex justify-content-center align-items-center m-auto">
+                <i class="fa fa-heartbeat"></i>
+              </div>
+              <div class="featuredCont">
+                <h6 class="mt-1">Health & Fitness</h6>
+                <p>22 Leecturue</p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+          <a href="#">
+            <div class="featured">
+              <div class="featuredIcon d-flex justify-content-center align-items-center m-auto">
+                <i class="fa fa-landmark"></i>
+              </div>
+              <div class="featuredCont">
+                <h6 class="mt-1">Gov. Exams</h6>
+                <p>22 Leecturue</p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+
+
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+          <a href="#">
+            <div class="featured">
+              <div class="featuredIcon d-flex justify-content-center align-items-center m-auto">
+                <i class="fa fa-photo-video"></i>
+              </div>
+              <div class="featuredCont">
+                <h6 class="mt-1">Photography</h6>
+                <p>22 Leecturue</p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+          <a href="#">
+            <div class="featured">
+              <div class="featuredIcon d-flex justify-content-center align-items-center m-auto">
+                <i class="fa fa-stamp"></i>
+              </div>
+              <div class="featuredCont">
+                <h6 class="mt-1">Finance & Accounting</h6>
+                <p>22 Leecturue</p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+
+
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+          <a href="#">
+            <div class="featured">
+              <div class="featuredIcon d-flex justify-content-center align-items-center m-auto">
+                <i class="fa fa-school"></i>
+              </div>
+              <div class="featuredCont">
+                <h6 class="mt-1">Office Productivity</h6>
+                <p>22 Leecturue</p>
+              </div>
+            </div>
+
+          </a>
+        </div>
+
+
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- end featureds -->
+
+
+  <!-- start featureds -->
+  <section class="featureds py-5 courses ">
+
+    <h2 class="text-center">Explore Featured <span>Categories</span></h2>
+    <p class="w-50 fP mx-auto text-center my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+    <div class="container">
+      <div class="row w-100 py-4 justify-content-between">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12  py-4 ">
+          <div class="course p-3">
+            <div class="courseImg">
+              <div class="coursesIcons mt-3 px-2">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-sm-3  w-auto ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-heart"></i>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-3 w-auto  ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-play"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assests/images/F0vdOLb.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="courseKey pt-1 py-2">
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <a href="#">deesign</a>
+                </div>
+                <div class="col">
+                  <p class="h4">$1455</p>
+                </div>
+              </div>
+            </div>
+            <div class="courseDetails">
+              <h4 class="h6 py-2"><a href="#">UI/UX Design pattern for succesfull software Applications</a></h4>
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <p><i class="fa fa-clock text-danger"></i>10 hr 07 min</p>
+                </div>
+                <div class="col">
+                  <p><i class="fa fa-video text-success"></i> 67 Lectures</p>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+
+            <div class="courseRate">
+              <div class="row justify-content-between ">
+                <div class="col-sm-3 w-auto ">
+                  <a href="#"><img src="assests/images/9mCNr06.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-sm-8 w-auto  ">
+                  <div class="row align-items-center justify-content-between pr-3">
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex px-2 rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12  py-4 ">
+          <div class="course p-3">
+            <div class="courseImg">
+              <div class="coursesIcons mt-3 px-2">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-sm-3  w-auto ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-heart"></i>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-3 w-auto  ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-play"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assests/images/F0vdOLb.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="courseKey pt-1 py-2">
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <a href="#">deesign</a>
+                </div>
+                <div class="col">
+                  <p class="h4">$1455</p>
+                </div>
+              </div>
+            </div>
+            <div class="courseDetails">
+              <h4 class="h6 py-2"><a href="#">UI/UX Design pattern for succesfull software Applications</a></h4>
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <p><i class="fa fa-clock text-danger"></i>10 hr 07 min</p>
+                </div>
+                <div class="col">
+                  <p><i class="fa fa-video text-success"></i> 67 Lectures</p>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+
+            <div class="courseRate">
+              <div class="row justify-content-between ">
+                <div class="col-sm-3 w-auto ">
+                  <a href="#"><img src="assests/images/F0vdOLb.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-sm-8 w-auto  ">
+                  <div class="row align-items-center justify-content-between pr-3">
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex px-2 rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12  py-4 ">
+          <div class="course p-3">
+            <div class="courseImg">
+              <div class="coursesIcons mt-3 px-2">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-sm-3  w-auto ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-heart"></i>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-3 w-auto  ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-play"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assests/images/F0vdOLb.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="courseKey pt-1 py-2">
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <a href="#">deesign</a>
+                </div>
+                <div class="col">
+                  <p class="h4">$1455</p>
+                </div>
+              </div>
+            </div>
+            <div class="courseDetails">
+              <h4 class="h6 py-2"><a href="#">UI/UX Design pattern for succesfull software Applications</a></h4>
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <p><i class="fa fa-clock text-danger"></i>10 hr 07 min</p>
+                </div>
+                <div class="col">
+                  <p><i class="fa fa-video text-success"></i> 67 Lectures</p>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+
+            <div class="courseRate">
+              <div class="row justify-content-between ">
+                <div class="col-sm-3 w-auto ">
+                  <a href="#"><img src="assests/images/RimBWDv.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-sm-8 w-auto  ">
+                  <div class="row align-items-center justify-content-between pr-3">
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex px-2 rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12  py-4 ">
+          <div class="course p-3">
+            <div class="courseImg">
+              <div class="coursesIcons mt-3 px-2">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-sm-3  w-auto ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-heart"></i>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-3 w-auto  ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-play"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assests/images/F0vdOLb.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="courseKey pt-1 py-2">
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <a href="#">deesign</a>
+                </div>
+                <div class="col">
+                  <p class="h4">$1455</p>
+                </div>
+              </div>
+            </div>
+            <div class="courseDetails">
+              <h4 class="h6 py-2"><a href="#">UI/UX Design pattern for succesfull software Applications</a></h4>
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <p><i class="fa fa-clock text-danger"></i>10 hr 07 min</p>
+                </div>
+                <div class="col">
+                  <p><i class="fa fa-video text-success"></i> 67 Lectures</p>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+
+            <div class="courseRate">
+              <div class="row justify-content-between ">
+                <div class="col-sm-3 w-auto ">
+                  <a href="#"><img src="assests/images/9mCNr06.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-sm-8 w-auto  ">
+                  <div class="row align-items-center justify-content-between pr-3">
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex px-2 rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12  py-4 ">
+          <div class="course p-3">
+            <div class="courseImg">
+              <div class="coursesIcons mt-3 px-2">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-sm-3  w-auto ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-heart"></i>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-3 w-auto  ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-play"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assests/images/F0vdOLb.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="courseKey pt-1 py-2">
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <a href="#">deesign</a>
+                </div>
+                <div class="col">
+                  <p class="h4">$1455</p>
+                </div>
+              </div>
+            </div>
+            <div class="courseDetails">
+              <h4 class="h6 py-2"><a href="#">UI/UX Design pattern for succesfull software Applications</a></h4>
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <p><i class="fa fa-clock text-danger"></i>10 hr 07 min</p>
+                </div>
+                <div class="col">
+                  <p><i class="fa fa-video text-success"></i> 67 Lectures</p>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+
+            <div class="courseRate">
+              <div class="row justify-content-between ">
+                <div class="col-sm-3 w-auto ">
+                  <a href="#"><img src="assests/images/9mCNr06.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-sm-8 w-auto  ">
+                  <div class="row align-items-center justify-content-between pr-3">
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex px-2 rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12  py-4 ">
+          <div class="course p-3">
+            <div class="courseImg">
+              <div class="coursesIcons mt-3 px-2">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-sm-3  w-auto ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-heart"></i>
+                    </div>
+
+                  </div>
+                  <div class="col-sm-3 w-auto  ">
+                    <div class="divIcon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-play"></i>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assests/images/F0vdOLb.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="courseKey pt-1 py-2">
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <a href="#">deesign</a>
+                </div>
+                <div class="col">
+                  <p class="h4">$1455</p>
+                </div>
+              </div>
+            </div>
+            <div class="courseDetails">
+              <h4 class="h6 py-2"><a href="#">UI/UX Design pattern for succesfull software Applications</a></h4>
+              <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <p><i class="fa fa-clock text-danger"></i>10 hr 07 min</p>
+                </div>
+                <div class="col">
+                  <p><i class="fa fa-video text-success"></i> 67 Lectures</p>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-divider"></div>
+
+            <div class="courseRate">
+              <div class="row justify-content-between ">
+                <div class="col-sm-3 w-auto ">
+                  <a href="#"><img src="assests/images/9mCNr06.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="col-sm-8 w-auto  ">
+                  <div class="row align-items-center justify-content-between pr-3">
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 w-auto ">
+                      <div class="d-flex px-2 rates justify-content-center align-items-center">
+                        <i class="fas fa-code rate"></i>
+                        <span class="px-1 px-lg-1">aaa</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="d-flex justify-content-center ">
+        <button class="btn text-center p-3">Explore More Courses</button>
+      </div>
+    </div>
+  </section>
+    <!-- end featureds -->
+
+
+
+<!-- start about -->
+  <section class="about">
+    <div class="container-fluid">
+      <div class="row justify-content-between flex-row-reverse">
+        <div class="col-lg-6 aboutImg ">
+          <div class="">
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="aboutCont">
+            <h2 class="py-1">
+              We Have The Most Qualified Instructors In The City.
+            </h2>
+            <p class="py-1"> cAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique</p>
+            <p class="d-flex align-items-center font-weight-bold"><span
+                class="aboutI d-flex justify-content-center align-items-center mr-3"><i class="fas fa-check"></i></span>
+                Full Lifetime Access</p>
+            <p class="d-flex align-items-center font-weight-bold"><span
+                class="aboutI d-flex justify-content-center align-items-center mr-3"><i class="fas fa-check"></i></span>
+                20+ Downloadable Resources</p>
+            <p class="d-flex align-items-center font-weight-bold"><span
+                class="aboutI d-flex justify-content-center align-items-center mr-3"><i class="fas fa-check"></i></span>
+                Certificate Of Completion</p>
+            <p class="d-flex align-items-center font-weight-bold"><span
+                class="aboutI d-flex justify-content-center align-items-center mr-3"><i class="fas fa-check"></i></span>
+                Free Trial 7 Days</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- end about -->
+
+
+  <!-- start about2 -->
+  <section class="about2 mt-5">
+    <div class="container-fluid">
+      <div class="row justify-content-between ">
+        <div class="col-lg-6 aboutImg ">
+          <div class="">
+
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="aboutCont">
+            <div class="d-flex align-items-center mb-2 pr-5 justify-content-center">
+              <div class="aboutI mr-2 d-flex justify-content-center align-items-center">
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="mt-3">
+                <h4>Easy Uploads Lectures</h4>
+                <p>Oluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-2 pr-5 justify-content-center">
+              <div class="aboutI mr-2 d-flex justify-content-center align-items-center">
+                <i class="fa fa-question-circle"></i>
+              </div>
+              <div class="mt-3">
+                <h4>Ask Unlimited Questions</h4>
+                <p>Oluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center mb-2 pr-5 justify-content-center">
+              <div class="aboutI mr-2 d-flex justify-content-center align-items-center">
+                <i class="fa fa-edit"></i>
+              </div>
+              <div class="mt-3">
+                <h4>Customize According You </h4>
+                <p>Oluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center mb-2 pr-5 justify-content-center">
+              <div class="aboutI mr-2 d-flex justify-content-center align-items-center">
+                <i class="fa fa-thumbs-up"></i>
+              </div>
+              <div class="mt-3">
+                <h4>100% Satisfactions</h4>
+                <p>Oluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- end about2 -->
+
+
+<!-- start insts -->
+  <section class=" insts ">
+    <div class="container">
+      <h2 class="text-center">Explore Featured <span>Categories</span></h2>
+      <p class="w-50 fP mx-auto text-center my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod
+        tempor incididunt ut .</p>
+      <div class="row autoplay">
+        <div class="col-md-3">
+          <div class="inst text-center">
+            <img src="assests/images/t-1.png" class="img-fluid mb-3" alt="">
+            <p class="w-25 m-auto field">aaaa</p>
+            <h4 class="my-1"><a href="#">Luella J. Robles</a></h4>
+            <div class="stars">
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <span>(244 Reviews)</span>
+
+            </div>
+            <hr>
+            <div class="row align-items-center enrolling">
+              <div class="col-sm-7">
+                <i class="fa fa-user"></i>
+                <span> 2.5k Users Enrolled</span>
+              </div>
+              <div class="col-sm-5">
+                <button class="btn btn-dark">Enroll Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="inst text-center">
+            <img src="assests/images/t-3.png" class="img-fluid mb-3" alt="">
+            <p class="w-25 m-auto field">aaaa</p>
+            <h4 class="my-1"><a href="#">Luella J. Robles</a></h4>
+            <div class="stars">
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <span>(244 Reviews)</span>
+
+            </div>
+            <hr>
+            <div class="row align-items-center enrolling">
+              <div class="col-sm-7">
+                <i class="fa fa-user"></i>
+                <span> 2.5k Users Enrolled</span>
+              </div>
+              <div class="col-sm-5">
+                <button class="btn btn-dark">Enroll Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3">
+          <div class="inst text-center">
+            <img src="assests/images/t-4.png" class="img-fluid mb-3" alt="">
+            <p class="w-25 m-auto field">aaaa</p>
+            <h4 class="my-1"><a href="#">Luella J. Robles</a></h4>
+            <div class="stars">
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <span>(244 Reviews)</span>
+
+            </div>
+            <hr>
+            <div class="row align-items-center enrolling">
+              <div class="col-sm-7">
+                <i class="fa fa-user"></i>
+                <span> 2.5k Users Enrolled</span>
+              </div>
+              <div class="col-sm-5">
+                <button class="btn btn-dark">Enroll Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3">
+          <div class="inst text-center">
+            <img src="assests/images/t-6.png" class="img-fluid mb-3" alt="">
+            <p class="w-25 m-auto field">aaaa</p>
+            <h4 class="my-1"><a href="#">Luella J. Robles</a></h4>
+            <div class="stars">
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <span>(244 Reviews)</span>
+
+            </div>
+            <hr>
+            <div class="row align-items-center enrolling">
+              <div class="col-sm-7">
+                <i class="fa fa-user"></i>
+                <span> 2.5k Users Enrolled</span>
+              </div>
+              <div class="col-sm-5">
+                <button class="btn btn-dark">Enroll Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="inst text-center">
+            <img src="assests/images/t-7.png" class="img-fluid mb-3" alt="">
+            <p class="w-25 m-auto field">aaaa</p>
+            <h4 class="my-1"><a href="#">Luella J. Robles</a></h4>
+            <div class="stars">
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <span>(244 Reviews)</span>
+
+            </div>
+            <hr>
+            <div class="row align-items-center enrolling">
+              <div class="col-sm-7">
+                <i class="fa fa-user"></i>
+                <span> 2.5k Users Enrolled</span>
+              </div>
+              <div class="col-sm-5">
+                <button class="btn btn-dark">Enroll Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="inst text-center">
+            <img src="assests/images/t-8.png" class="img-fluid mb-3" alt="">
+            <p class="w-25 m-auto field">aaaa</p>
+            <h4 class="my-1"><a href="#">Luella J. Robles</a></h4>
+            <div class="stars">
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <i class="fa fa-star filled"></i>
+              <span>(244 Reviews)</span>
+
+            </div>
+            <hr>
+            <div class="row align-items-center enrolling">
+              <div class="col-sm-7">
+                <i class="fa fa-user"></i>
+                <span> 2.5k Users Enrolled</span>
+              </div>
+              <div class="col-sm-5">
+                <button class="btn btn-dark">Enroll Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+  <!-- end insts -->
+
+
+<!-- start packages -->
+  <section class="packages">
+    <h2 class="text-center">Explore Featured <span class="greenTeext">Categories</span></h2>
+    <p class="w-50 fP mx-auto text-center my-4 p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod
+      tempor incididunt ut .</p>
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="package">
+            <h4 class="text-center mt-2 mb-0">Basic</h4>
+            <div class="row align-items-center text-center justify-content-center">
+              <span class="dollar">$</span>
+              <p class=" price m-0">90</p>
+
+            </div>
+            <p class="text-center m-0">per user, per month</p>
+            <div class="aboutCont mt-0 pt-4">
+
+              <p class="d-flex align-items-center font-weight-bold mb-3 mt-0"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Unlimited access to 35,000+ classes</p>
+              <p class="d-flex align-items-center font-weight-bold my-3"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Easy-to-use admin capabilities</p>
+              <p class="d-flex align-items-center font-weight-bold my-3"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Feedback from teachers and community</p>
+              <p class="d-flex align-items-center my-3 notSup"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-times"></i></span>
+                Onboarding & engagement kit</p>
+              <p class="d-flex align-items-center my-3 notSup"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-times"></i></span>
+                Onboarding & engagement kit</p>
+
+            </div>
+            <div class="px-5">
+              <button class="btn btnn p-3 w-100">start basic</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4  col-sm-12">
+          <div class="package">
+            <p class="p-1 m-auto text-center text-white best">Best Value</p>
+            <h4 class="text-center mt-2 mb-0">Standard </h4>
+            <div class="row align-items-center text-center justify-content-center">
+              <span class="dollar">$</span>
+              <p class=" price m-0">90</p>
+
+            </div>
+            <p class="text-center m-0">per user, per month</p>
+            <div class="aboutCont mt-0 pt-4">
+
+              <p class="d-flex align-items-center font-weight-bold mb-3 mt-0"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Unlimited access to 35,000+ classes</p>
+              <p class="d-flex align-items-center font-weight-bold my-3"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Easy-to-use admin capabilities</p>
+              <p class="d-flex align-items-center font-weight-bold my-3"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Feedback from teachers and community</p>
+              <p class="d-flex align-items-center my-3 notSup"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-times"></i></span>
+                Onboarding & engagement kit</p>
+              <p class="d-flex align-items-center my-3 notSup"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-times"></i></span>
+                Onboarding & engagement kit</p>
+
+            </div>
+            <div class="px-5">
+              <button class="btn green w-100">start basic</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="package">
+            <h4 class="text-center mt-2 mb-0">Basic</h4>
+            <div class="row align-items-center text-center justify-content-center">
+              <span class="dollar">$</span>
+              <p class=" price m-0">90</p>
+
+            </div>
+            <p class="text-center m-0">per user, per month</p>
+            <div class="aboutCont mt-0 pt-4">
+
+              <p class="d-flex align-items-center font-weight-bold mb-3 mt-0"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Unlimited access to 35,000+ classes</p>
+              <p class="d-flex align-items-center font-weight-bold my-3"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Easy-to-use admin capabilities</p>
+              <p class="d-flex align-items-center font-weight-bold my-3"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-check"></i></span>
+                Feedback from teachers and community</p>
+              <p class="d-flex align-items-center my-3 notSup"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-times"></i></span>
+                Onboarding & engagement kit</p>
+              <p class="d-flex align-items-center my-3 notSup"><span
+                  class="aboutI d-flex justify-content-center align-items-center mr-3"><i
+                    class="fas fa-times"></i></span>
+                Onboarding & engagement kit</p>
+
+            </div>
+            <div class="px-5">
+              <button class="btn btnn p-3 w-100">start basic</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end packages -->
+
+
+  <!-- start contact -->
+  <section class="contact py-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-8">
+          <h3>Do You Have Any Queries?</h3>
+          <p>We will assist you in furthering your career and growth.</p>
+        </div>
+        <div class="col-md-3">
+          <button class="btn  text-center">talk to us</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact -->
+
+
+  <!-- start social -->
+  <section class="social text-center py-3">
+    <h4 class="text-white">
+      You can find us at
+    </h4>
+    <div class="text-center w-50 m-auto">
+      <a href="#" class="p-2"><i class="fab fa-facebook-square fa-2x"></i></a>
+      <a href="#" class="p-2"><i class="fab fa-linkedin fa-2x"></i></i></a>
+      <a href="#" class="p-2"><i class="fab fa-twitter-square fa-2x"></i></a>
+      <a href="#" class="p-2"><i class="fab fa-youtube-square fa-2x"></i></a>
+
+    </div>
+    <div class="container">
+      <hr class="bg-white">
+    </div>
+  </section>
+  <!-- end social -->
+
+
+
+  <footer class="text-center">
+    <div class="container">
+      <div class="logoLight pl-3 text-left">
+        <img src="assests/images/logo-light.png" class="img-fluid" alt="">
+      </div>
+      <div class="row justify-content-between">
+         <div class="col-md-4">
+         
+          <h5 class="position-relative">Why Us <i class="fas fa-angle-down"></i></h5>
+          <div class="content">
+            <h4 class="text-left my-3 h5">Do You Require Assistance With Anything?</h4>
+           <p class="text-left">Every month, receive updates, hot deals, tutorials, and discounts delivered directly to your inbox.</p>
+          <div class="row justify-content-center no-gutters mt-2">
+           <div class="col-sm-8">
+            <input type="text" class="form-control">
+           </div>
+           <div class="col-sm-4">
+            <button class="btn btn-danger">Submit</button>
+           </div>
+            
+          </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5 class="position-relative">Company <i class="fas fa-angle-down"></i></h5>
+         <div class="content">
+          
+          <ul>
+            <li><a href="#">iDemy Business</a></li>
+            <li><a href="#">Teach on iDemy</a></li>
+            <li><a href="#">Get the app</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">contact us</a></li>
+
+          </ul>
+         </div>
+        </div>
+
+        <div class="col-md-2">
+          <h5 class="position-relative">Resources<i class="fas fa-angle-down"></i></h5>
+          <div class="content">
+           <ul>
+             <li><a href="#">Careers</a></li>
+             <li><a href="#">Blog</a></li>
+             <li><a href="#">Help & Support</a></li>
+             <li><a href="#">Affiliate</a></li>
+             <li><a href="#">Affiliate</a></li>
+           </ul>
+          </div>
+         </div>
+
+         <div class="col-md-2">
+          <h5 class="position-relative">Users <i class="fas fa-angle-down"></i></h5>
+          <div class="content">
+           <ul>
+             <li><a href="#">iDemy Business</a></li>
+             <li><a href="#">Terms</a></li>
+             <li><a href="#">Privacy policy</a></li>
+             <li><a href="#">Cookie settings</a></li>
+             <li><a href="#">Accessiblity statement </a></li>
+
+           </ul>
+          </div>
+         </div>
+  
+      
+ 
+</div>
+    </div>
+    <hr class="bg-white my-4">
+  </footer>
+
+ 
+
+  <script src="assests/js/jquery-3.6.0.min.js"></script>
+  <script src="assests/js/slick.min.js"></script>
+  <script src="assests/js/popper.min.js"></script>
+  <script src="assests/js/bootstrap.min.js"></script>
+  <script src="assests/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/c589fbe179.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
