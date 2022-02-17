@@ -1,5 +1,5 @@
 // open dropdown with hoveer
-$(".dropdown,.dropright").hover(
+$("nav .dropdown,nav .dropright").hover(
   function () {
     console.log("ggvgv");
     $(this).children(".dropdown-menu").stop(true, true).delay(200).fadeIn(500);
@@ -12,7 +12,7 @@ $(".dropdown,.dropright").hover(
 // open sidebar
 let sideBoxWidth = $(".sideBar").outerWidth(true);
 console.log(sideBoxWidth);
-$("#open").click(function () {
+$(".open").click(function () {
   $(".sideBar").animate({ left: "0" }, 500);
   $(".close").css("display", "block");
 });
@@ -28,6 +28,14 @@ $(".close").click(function () {
 $(".card-header").click(function () {
   $(this).removeClass("brdrBtn");
   $(this).children("p").toggleClass("highLight");
+  if( $(this).attr("aria-expanded") =="true"){
+    $(this).find("span").css("transform","rotate(45deg)")
+  }else {
+    
+    $(this).find("span").css("transform","rotate(-135deg)")
+   
+  }
+
 });
 
 // slider settings
@@ -72,45 +80,55 @@ $(".autoplay").slick({
   ],
 });
 
-$("footer h5:eq(0)").css("display", "none");
+ $(".smScreen h5:eq(0)").css("display", "none");
 
-let h5s = $("footer h5");
+let h5s = $(".smScreen h5");
 
 
-// Footer mediaQuery
+// .smScreen mediaQuery
 const mediaQuery = window.matchMedia("(max-width: 768px)");
 
 function handleTabletChange(e) {
   // Check if the media query is true
   if (e.matches) {
-    $("footer .content").slideUp(1);
-    $("footer .content:eq(0)").css("display", "none");
-    $("footer h5:eq(0)").css("display", "block");
-    $("footer i").css("opacity","1");
-    $("footer").removeClass("text-center");
-    $("footer").addClass("text-left");
-    $("footer  .content").after(`<hr class="bg-white my-3">`);
-    $("footer h5").css("margin-top", "15px");
+    $(".smScreen .content").slideUp(1);
+    $(".smScreen .content:eq(0)").css("display", "none");
+    $(".smScreen h5:eq(0)").css("display", "block");
+    $(".smScreen i").css("opacity","1");
+    $(".smScreen").removeClass("text-center");
+    $(".smScreen").addClass("text-left");
+    $(".smScreen  .content").after(`<hr class="bg-white my-3">`);
+    $(".smScreen h5").css("margin-top", "15px");
     for (let i = 0; i < h5s.length; i++) {
       h5s[i].addEventListener("click", (e) => {
-        $("footer .content").eq(i).slideToggle(500);
+        $(".smScreen .content").eq(i).slideToggle(500);
       });
     }
     console.log("Media Query Matched!");
-   } else if(!e.matches) {
-    $("h5").removeEventListener("click")
-    $("footer .content").slideDown(100);
-    $("footer .content:eq(0)").css("display", "block");
-    $("footer h5:eq(0)").css("display", "none");
-    $("footer").removeClass("text-left");
-    $("footer").addClass("text-center");
-    $("footer h5").css("margin-top", "10px");
-    $("footer hr").remove();
+   } else{
+
+    
+    console.log("nooo");
+    
    }
 }
 
-// Register event listener
-mediaQuery.addEventListener("change", handleTabletChange);
 
 // Initial check
 handleTabletChange(mediaQuery);
+
+$("header nav").slideUp(100)
+
+$(window).scroll(function(){
+  let wScroll = $(window).scrollTop()
+  if(wScroll > 100)
+  {
+    $("header nav").css("position","fixed")
+    $("header nav").slideDown(100)
+
+      $(".btnUp").fadeIn(500);
+  }else
+  {
+    $("header nav").slideUp(1)
+  }
+});
