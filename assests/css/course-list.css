@@ -1,0 +1,17 @@
+.courseImg img
+{
+    width: 100%;
+   height: 210px;
+    object-fit: cover;
+}
+
+.play i
+{
+    font-size: 15px;
+}
+
+.course
+{
+    box-shadow: 1px 0px 15px 0px rgba(219, 195, 195, 0.64)
+
+}

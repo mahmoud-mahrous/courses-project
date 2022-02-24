@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --mainColor: #03B97C
+}
+
+.navbar
+{
+  position:fixed;
+  z-index: 9999999;
+  background:#fff;
+  box-shadow: 1px 0px 15px 0px rgba(219, 195, 195, 0.64)
+}
+
+header
+{
+    padding: 80px 0 80px;
+    margin: 80px 0px 0px;
+}
+h1 {
+    line-height: 40px;
+    font-size: 36px;
+}
+
+.gray
+{
+    background-color: #F4F5F7;
+}
+
+.side
+{
+    border-radius: 5px;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+ .dropdownn {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: static;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .dropdownn .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+   a:hover {background-color: #ddd;}
+  
+  
+  .show {display: block;}
+
+  .search { position: relative; }
+  b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    right: 20px;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+    
+}
+
+.rotate
+{
+    transform: rotate(180deg);
+}
+
+label i.count {
+    float: right;
+    width: 20px;
+    font-style: initial;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(3, 185, 124,0.1);
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 600;
+    color: #03b97c;
+    margin-top: 5px;
+}
+
+
+
+
+.containerr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containerr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #dae3ec;
+    border-radius: 2px;
+    margin-top: 5px;
+    
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerr:hover input ~ .checkmark {
+    background-color: #fff;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containerr input:checked ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containerr input:checked ~ .checkmark:after {
+    display: block;
+
+  }
+  
+  /* Style the checkmark/indicator */
+  .containerr .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  .side button
+  {
+      background-color: var(--mainColor);
+      color: #fff;
+  }
+
+
+
+
+
+
+
+
+
+  .shortBy
+  {
+      padding: 20px 0px;
+      border-radius: 5px;
+  }
+
+  .shortBy .span , .shortBy select
+  {
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      padding: 5px 8px;
+      border-radius: 3px;
+      font-size: 16px;
+      cursor: pointer;
+  }
+
+  .shortBy .span i
+  {
+      font-size: 14px;
+  }
+
+  .shortBy .active
+  {
+    border: 1px solid #03b97c;
+    color: #03b97c;
+  }
+
+
+
+  .course
+{
+    background-color: #fff;
+    border-radius: 7px;
+    position: relative;
+    box-shadow: none
+
+}
+
+
+
+
+.courseKey img
+{
+    height: 45px;
+    transform: translateY(-60%);
+    width: 80%;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.courseDetails span
+{
+    font-size: 14px;
+}
+
+.progress
+{
+    height: 7px;
+    margin-bottom: 20px;
+}
+
+.progress .progress-bar
+{
+    background-color: var(--mainColor);
+}
+
+.courseDetails a
+{
+    color:#000;
+}
+
+
+.coursePrice span
+{
+    color: var(--mainColor);
+}
+
+.coursePrice button
+{
+    background-color: var(--mainColor);
+    color: #fff;
+}

@@ -117,18 +117,28 @@ function handleTabletChange(e) {
 // Initial check
 handleTabletChange(mediaQuery);
 
-$("header nav").slideUp(100)
 
 $(window).scroll(function(){
   let wScroll = $(window).scrollTop()
   if(wScroll > 100)
   {
-    $("header nav").css("position","fixed")
-    $("header nav").slideDown(100)
+    $("nav").css("position","fixed")
+    $("nav").css("background","#fff")
+    $("nav").css("box-shadow"," 1px 0px 15px 0px rgba(219, 195, 195, 0.64)")
+    $("nav").animate({"top":"0px"},1000)
+
+    
 
       $(".btnUp").fadeIn(500);
   }else
   {
-    $("header nav").slideUp(1)
+    // $("nav").slideUUp(100)
+
+    
+    $("nav").css("position","static")
+    $("nav").css("background","#F4F5F7")
+    $("nav").css("box-shadow","none")
+
+
   }
 });

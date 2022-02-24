@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --mainColor: #03B97C
+}
+
+body
+{
+    background-color: #F7F8F9;
+}
+
+.navbar
+{
+  position:fixed;
+  z-index: 9999999;
+  background:#fff;
+  box-shadow: 1px 0px 15px 0px rgba(219, 195, 195, 0.64)
+}
+
+header
+{
+    padding: 80px 0 80px;
+    margin: 80px 0px 0px;
+    background-color: #051A3E;
+    color: #fff;
+}
+h1 {
+    line-height: 40px;
+    font-size: 36px;
+    padding: 10px 0px;
+}
+
+.hCont
+{
+    width: 60%;
+}
+
+.hCont p
+{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.hCont span
+{
+    font-size: 15px;
+}
+
+header .key a
+{
+    padding: 7px;
+    background-color: #fd353f7e;
+    border-radius: 5px;
+}
+
+.detailsOfCourse
+{
+    padding: 20px 0px 50px;
+}
+
+.overview
+{
+    background-color: #fff;
+    width: 70%;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.overview i
+{
+    font-size: 15px;
+    color: black;
+}
+
+.nav-pills a
+{
+    color: #30384e;
+}
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
+    color: #fff;
+    background-color: #03b97c;
+}
+@media screen and (max-width: 575px) {
+    .overview
+    {
+        background-color: #fff;
+        width: 100%;
+        
+    }
+
+    .nav-pills 
+{
+   justify-content: center !important;
+}
+.hCont
+{
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .overview
+    {
+        background-color: #fff;
+        width: 100%;
+        
+    }
+
+    .nav-pills 
+{
+   justify-content: center !important;
+}
+
+.hCont
+{
+    width: 100%;
+}
+}
+
+
+
+
+
+@media screen and (min-width:768px)and (max-width: 991px) {
+.overview
+{
+    background-color: #fff;
+    width: 100%;
+    
+}
+
+.nav-pills 
+{
+   justify-content: center !important;
+}
+
+}
