@@ -20,6 +20,8 @@ function myFunction() {
   }
 
 
+  
+
   $(window).scroll(function(){
     let wScroll = $(window).scrollTop()
     if(wScroll > 100)
