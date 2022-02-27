@@ -24,6 +24,7 @@ header {
     margin: 80px 0px 0px;
     background-color: #051A3E;
     color: #fff;
+    
 }
 
 h1 {
@@ -57,7 +58,7 @@ header .key a {
 
 .overview {
     background-color: #fff;
-    width: 70%;
+    width: 100%;
     padding: 30px;
     margin-top: 40px;
     border-radius: 5px;
@@ -227,6 +228,12 @@ header .key a {
     color: black;
     font-size: 20px;
     font-weight: 700;
+    text-decoration: none;
+    transition: all .33s;
+}
+
+.courseDetails a:hover {
+    color: var(--mainColor);
 }
 
 .courseDetails span, .courseDetails i {
@@ -346,4 +353,103 @@ header .key a {
     width: 46px;
     height: 22px;
     text-align: center;
+}
+
+
+.reviews-reaction span
+{
+    cursor: pointer;
+}
+
+.comments h6 a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+form button
+{
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 15px !important;
+    margin-top: 15px;
+}
+
+.sticky
+{
+    position: sticky;
+    z-index: 99999;
+    width: 100%;
+    align-self: flex-start;
+    right: 30px;
+    top:  150px;
+}
+
+.crsDtls
+{
+    
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.crsDtlsInfo 
+{
+    padding: 5px 20px;
+}
+
+.crsDtlsInfo .p1
+{
+    font-size: 14px;
+}
+
+.crsDtlsInfo .p2
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--mainColor);
+}
+
+.crsDtlsInfo .fullBrdr
+{
+    border-radius: 50%;
+    background-color: #999;
+}
+
+.crsDtlsInfo .fullBrdr
+{
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.crsDtlsInfo i
+{
+    font-size: 10px;
+    padding: 3px;
+}
+
+.crsDtlsInfo .btn i
+{
+    font-size: 20px;
+}
+
+.crsDtlsInfo span
+{
+    font-size: 15px;
+}
+
+.brdDashed
+{
+    border: 1px dashed var(--mainColor);
+    color: var(--mainColor);
+    padding: 15px !important;
+    font-weight: 700;
+
+}
+
+.green
+{
+    background-color: var(--mainColor);
+    color: white;
+    padding: 15px !important;
+    font-weight: 700;
 }
