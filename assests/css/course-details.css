@@ -69,11 +69,24 @@ header .key a {
     color: black;
 }
 
-.nav-pills a {
+.detailsOfCourse .nav-pills .nav-link {
+    border-radius: 0.25rem;
+}
+
+.detailsOfCourse .nav-link {
+    display: block;
+    padding: 0.8rem 1.6rem;
+    background: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 0.8rem;
+}
+
+.detailsOfCourse .nav-pills a {
     color: #30384e;
 }
 
-.nav-pills .nav-link.active, .show>.nav-pills .nav-link {
+.detailsOfCourse .nav-pills .nav-link.active, .show>.nav-pills .nav-link {
     color: #fff;
     background-color: #03b97c;
 }
@@ -85,7 +98,7 @@ header .key a {
 
     }
 
-    .nav-pills {
+    .detailsOfCourse .nav-pills {
         justify-content: center !important;
     }
 
@@ -101,7 +114,7 @@ header .key a {
 
     }
 
-    .nav-pills {
+   .detailsOfCourse .nav-pills {
         justify-content: center !important;
     }
 
@@ -184,7 +197,6 @@ header .key a {
     content: "20:20";
     position: absolute;
     right: 10px;
-
 }
 
 
@@ -437,14 +449,15 @@ form button
     font-size: 15px;
 }
 
+
 .brdDashed
 {
     border: 1px dashed var(--mainColor);
     color: var(--mainColor);
     padding: 15px !important;
     font-weight: 700;
-
 }
+
 
 .green
 {
