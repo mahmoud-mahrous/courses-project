@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assests/css/all.min.css" />
-  
+    <link rel="stylesheet" href="assests/css/slick.css" />
+    <link rel="stylesheet" href="assests/css/slick-theme.css" />
   <link rel="stylesheet" href="assests/css/style.css">
-    <link rel="stylesheet" href="assests/css/course-grid.css" />
-    <title>Courses Grid Style</title>
+    <link rel="stylesheet" href="assests/css/about-us-page.css" />
+    <title>About Us</title>
 </head>
 <body>
     
@@ -382,223 +383,256 @@
     </div>  
   </div>
 
-   <header class="bg-white">
+   <header>
      
      <div class="container">
-       <h1 class="h2">Courses Grid Style</h1>
+       <h1 class="h2 font-weight-bold">Who We Are ?</h1>
 
-      <a href="index.html">Home /</a> <span>Find Courses</span>
+      <a href="index.html">Home /</a> <span>About Us</span>
       </nav>
     </div>
    </header>
 
 
-   <section class="gray p-5">
-     <div class="container">
-       <div class="row">
-         <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-3">
-           <div class="side bg-white p-3">
-             <div class="form-group">
-              <input type="text" class="form-control p-3" placeholder="Search Your Course" >
-             </div>
-            <div class="form-group">
-              <div class="dropdownn">
-                <div class="search">
-                  <b id="icon" role="presentation" class=""></b>
-                  <input type="text" class="p-3 form-control " placeholder="Search.." id="myInput" onkeyup="filterFunction()" onclick="myFunction()">
-                </div>
 
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#about">About</a>
-                  <a href="#base">Base</a>
-                  <a href="#blog">Blog</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#custom">Custom</a>
-                  <a href="#support">Support</a>
-                  <a href="#tools">Tools</a>
-                </div>
+   
+<!-- start about -->
+  <section class="about">
+    <div class="container-fluid">
+      <div class="row justify-content-between align-items-center flex-row-reverse">
+        <div class="col-lg-6 ">
+            <div class="w-75 m-auto">
+                <img src="assests/images/GSAZ8Dy.png" class="img-fluid" alt="">
               </div>
-            </div>
-
-            <div class="form-group">
-              <h6>Top Instructor</h6>
-              <label class="containerr">One
-                <i class="count">12</i>
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-              </label>
-              
-              <label class="containerr">Two
-                <i class="count">12</i>
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-
-
-              <label class="containerr">Two
-                <i class="count">12</i>
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-
-
-              <label class="containerr">Two
-                <i class="count">12</i>
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-            </div>
-
-
-            <div class="form-group">
-              <h6>Top Instructor</h6>
-              <label class="containerr">One
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-              </label>
-              
-              <label class="containerr">Two
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-
-
-              <label class="containerr">Two
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-
-
-              <label class="containerr">Two
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-            </div>
-          
-
-            <div class="form-group">
-              <h6>Top Instructor</h6>
-              <label class="containerr">One
-                <i class="count">12</i>
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-              </label>
-              
-              <label class="containerr">Two
-                <i class="count">12</i>
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-
-
-              <label class="containerr">Two
-                <i class="count">12</i>
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-
-
-              <label class="containerr">Two
-                <i class="count">12</i>
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-            </div>
-
-            <button class="btn w-100 my-3 ">Apply Filter</button>
-           </div>
-         </div>
-
-         <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
-           <div class="shortBy bg-white ">
-             <div class="row justify-content-between text-md-center align-items-center no-gutters pl-2">
-               <div class="col-lg-4 col-md-5 col-sm-12  col-sm-6 pl-sm-4">
-                 <h6>Showing 1-25 Of 72</h6>
-               </div>
-               <div class="col-lg-6 col-md-7 col-sm-12 col-sm-6 pl-sm-4">
-                <span class="">short by:</span>
-                <select name="" id="">
-                  <option value="most">Most Rated</option>
-                  <option value="most">Most Viewed</option>
-                  <option value="most">News Listing</option>
-                </select>
-                <a href="course-grid.html"><span class="span active"><i class="fas fa-th-large"></i></span></a>
-               <a href="course-list.html"> <span class="span"><i class="fas fa-list"></i></span></a>
-              </div>
-             </div>
-           </div>
-
-           <div class="coursesFiltered mt-4">
-             <div class="row" id="courses">
-               
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="course p-3">
-                    <div class="crs_video_ico">
-                      <i class="fa fa-play"></i>
-                    </div>
-                    <div class="crs_locked_ico">
-                      <i class="fa fa-heart"></i>
-                    </div>
-                    <div class="courseImg">
-                      <a href="#">
-                        <img src="assests/images/rKkcbHL.jpg" class="img-fluid" alt="">
-                      </a>
-                    </div>
-                    <div class="courseKey  py-1">
-                      <div class="row justify-content-between align-items-center">
-                        <div class="col-3">
-                          <a href="#">deesign</a>
-                        </div>
-                        <div class="col-3 ">
-                         <img src="assests/images/9mCNr06.jpg" class=" " alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="courseDetails pb-3 pr-2">
-                      <h4 class="h6 py-2"><a href="#">UI/UX Design pattern for succesfull software Applications</a></h4>
-                      <div class="row justify-content-between align-items-center">
-                        <div class="col-4">
-                          <i class="fa fa-video "></i>
-                          <span>24 Videos</span>
-                        </div>
-                        <div class="col-4">
-                          <i class="fa fa-clock text-danger"></i>
-                          <span>24 Videos</span>
-                        </div>
-                        <div class="col-4">
-                          <i class="fa fa-video text-success"></i>
-                          <span>24 Videos</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="dropdown-divider"></div>
-        
-                    <div class="coursePrice ">
-                      <div class="row justify-content-between align-items-center">
-                       <div class="col-6">
-                        <p class="h4">$<span>144</span></p>
-                       </div>
-                       <div class="col-6 text-right">
-                        <button class="btn">Enroll Now</button>
-                       </div>
-                      </div>
-                    </div>
-        
-                  </div>
-                 </div>
-               </div>
-             </div>
-           </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="aboutCont">
+            <span class="text-success">About Us</span>
+            <h2 class="py-1 font-weight-bold">
+              What We Do & Our Aim
+            </h2>
+            <p class="py-1"> cAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique</p>
+            <p class="d-flex align-items-center"><span
+                class="aboutI d-flex justify-content-center align-items-center mr-3"><i class="fas fa-check"></i></span>
+                Full Lifetime Access</p>
+            <p class="d-flex align-items-center"><span
+                class="aboutI d-flex justify-content-center align-items-center mr-3"><i class="fas fa-check"></i></span>
+                20+ Downloadable Resources</p>
+            <p class="d-flex align-items-center"><span
+                class="aboutI d-flex justify-content-center align-items-center mr-3"><i class="fas fa-check"></i></span>
+                Certificate Of Completion</p>
+            <p class="d-flex align-items-center"><span
+                class="aboutI d-flex justify-content-center align-items-center mr-3"><i class="fas fa-check"></i></span>
+                Free Trial 7 Days</p>
+                <button class="btn mt-3">Enrolled Today</button>
+          </div>
+         
         </div>
 
-       </div>
-     </div>
-   </section>
+      </div>
+    
+    </div>
+
+  </section>
+  <!-- end about -->
 
 
+
+  <section class="trending p-5">
+    <h2 class="text-center">Trusted By<span> 10,000</span></h2>
+    <p class="w-50 fP mx-auto text-center mb-5 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+         <div class="p-3">
+          <img src="assests/images/udacity.png" class="img-fluid" alt="">
+         </div>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+          <div class="p-3">
+           <img src="assests/images/coursera.png" class="img-fluid" alt="">
+          </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+          <div class="p-3">
+           <img src="assests/images/udemy.png" class="img-fluid" alt="">
+          </div>
+         </div>
+
+         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+          <div class="p-3">
+           <img src="assests/images/udacity.png" class="img-fluid" alt="">
+          </div>
+         </div>
+ 
+         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+           <div class="p-3">
+            <img src="assests/images/coursera.png" class="img-fluid" alt="">
+           </div>
+          </div>
+ 
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+           <div class="p-3">
+            <img src="assests/images/udemy.png" class="img-fluid" alt="">
+           </div>
+          </div>
+
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+            <div class="p-3">
+             <img src="assests/images/udacity.png" class="img-fluid" alt="">
+            </div>
+           </div>
+   
+           <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+             <div class="p-4">
+              <img src="assests/images/coursera.png" class="img-fluid" alt="">
+             </div>
+            </div>
+   
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mt-4">
+             <div class="p-4">
+              <img src="assests/images/udemy.png" class="img-fluid" alt="">
+             </div>
+            </div>
+
+         
+         
+         
+      </div>
+    </div>
+  </section>
+  
+
+  <section class=" reviews">
+    <h2 class="text-center">Our Students <span>Reviews</span></h2>
+    <p class="w-50 fP mx-auto text-center mb-5 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+      <div class="row autoplay">
+        <div class="col-md-3">
+          <div class="review px-3 py-4">
+           <div class="row justify-content-start">
+             <div class="col-md-3">
+               <img src="assests/images/9mCNr06.jpg" class="img-fluid rounded-circle" alt="">
+             </div>
+             <div class="col-md-9">
+               <div class="row justify-content-between w-100">
+                 <div class="col-md-8">
+                   <h6>Roy M. Cardona</h6>
+                   <span class="text-dark">Google Founder</span>
+                 </div>
+                 <div class="col-md-4  text-right">
+                  <img src="assests/images/9mCNr06.jpg" class="rounded-circle w-100" alt="">
+                </div>
+               </div>
+            </div>
+           </div>
+           <span class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse at nihil distinctio quo excepturi incidunt </span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="review px-3 py-4">
+           <div class="row justify-content-start">
+             <div class="col-md-3">
+               <img src="assests/images/9mCNr06.jpg" class="img-fluid rounded-circle" alt="">
+             </div>
+             <div class="col-md-9">
+               <div class="row justify-content-between w-100">
+                 <div class="col-md-8">
+                   <h6>Roy M. Cardona</h6>
+                   <span class="text-dark">Google Founder</span>
+                 </div>
+                 <div class="col-md-4  text-right">
+                  <img src="assests/images/9mCNr06.jpg" class="rounded-circle w-100" alt="">
+                </div>
+               </div>
+            </div>
+           </div>
+           <span class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse at nihil distinctio quo excepturi incidunt </span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="review px-3 py-4">
+           <div class="row justify-content-start">
+             <div class="col-md-3">
+               <img src="assests/images/9mCNr06.jpg" class="img-fluid rounded-circle" alt="">
+             </div>
+             <div class="col-md-9">
+               <div class="row justify-content-between w-100">
+                 <div class="col-md-8">
+                   <h6>Roy M. Cardona</h6>
+                   <span class="text-dark">Google Founder</span>
+                 </div>
+                 <div class="col-md-4  text-right">
+                  <img src="assests/images/9mCNr06.jpg" class="rounded-circle w-100" alt="">
+                </div>
+               </div>
+            </div>
+           </div>
+           <span class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse at nihil distinctio quo excepturi incidunt </span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="review px-3 py-4">
+           <div class="row justify-content-start">
+             <div class="col-md-3">
+               <img src="assests/images/9mCNr06.jpg" class="img-fluid rounded-circle" alt="">
+             </div>
+             <div class="col-md-9">
+               <div class="row justify-content-between w-100">
+                 <div class="col-md-8">
+                   <h6>Roy M. Cardona</h6>
+                   <span class="text-dark">Google Founder</span>
+                 </div>
+                 <div class="col-md-4  text-right">
+                  <img src="assests/images/9mCNr06.jpg" class="rounded-circle w-100" alt="">
+                </div>
+               </div>
+            </div>
+           </div>
+           <span class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse at nihil distinctio quo excepturi incidunt </span>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="review px-3 py-4">
+           <div class="row justify-content-start">
+             <div class="col-md-3">
+               <img src="assests/images/9mCNr06.jpg" class="img-fluid rounded-circle" alt="">
+             </div>
+             <div class="col-md-9">
+               <div class="row justify-content-between w-100">
+                 <div class="col-md-8">
+                   <h6>Roy M. Cardona</h6>
+                   <span class="text-dark">Google Founder</span>
+                 </div>
+                 <div class="col-md-4  text-right">
+                  <img src="assests/images/9mCNr06.jpg" class="rounded-circle w-100" alt="">
+                </div>
+               </div>
+            </div>
+           </div>
+           <span class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse at nihil distinctio quo excepturi incidunt </span>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+
+  
+
+
+
+  
 <!-- start contact -->
 <section class="contact py-5">
   <div class="container">

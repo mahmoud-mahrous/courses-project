@@ -75,11 +75,10 @@ header .key a {
 
 .detailsOfCourse .nav-link {
     display: block;
-    padding: 0.8rem 1.6rem;
+    padding: 0.8rem 1.2rem;
     background: #ffffff;
     font-weight: 600;
     font-size: 14px;
-    margin-right: 0.8rem;
 }
 
 .detailsOfCourse .nav-pills a {
@@ -228,12 +227,16 @@ header .key a {
 }
 
 
-
-
+.courseImg
+{
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+}
 
 .courseImg img {
     width: 230px;
     height: 230px;
+    
 }
 
 .courseDetails a {
@@ -395,14 +398,23 @@ form button
     align-self: flex-start;
     right: 30px;
     top:  150px;
+    margin-top: -350px;
+    
 }
 
 .crsDtls
 {
     
-    border-radius: 15px;
-    background-color: #fff;
+    border-radius: 5px;
+    background-color: white;
 }
+
+.crsDtlsImg img
+{
+    border-radius: 5px;
+}
+
+
 
 .crsDtlsInfo 
 {
@@ -465,5 +477,45 @@ form button
     color: white;
     padding: 15px !important;
     font-weight: 700;
+}
+
+@media screen and (max-width: 575px) {
+    .sticky
+    {
+        position: static;
+        z-index: 99999;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .sticky
+    {
+        position: static;
+        z-index: 99999;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px)and (max-width: 991px) {
+    .sticky
+    {
+        position: static;
+        z-index: 99999;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    
 }
 

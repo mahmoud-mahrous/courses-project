@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --mainColor: #03B97C
+}
+
+.navbar
+{
+  position:fixed;
+  z-index: 9999999;
+  background:#fff;
+  box-shadow: 1px 0px 15px 0px rgba(219, 195, 195, 0.64)
+}
+
+header
+{
+    padding: 80px 0 80px;
+    margin: 80px 0px 0px;
+}
+h1 {
+    line-height: 40px;
+    font-size: 36px;
+}
+
+
+.aboutCont p
+{
+    font-weight: 500;
+}
+
+
+.trending
+{
+    background-color: #F7F8F9;
+
+}
+
+.trending span
+{
+    color: var(--mainColor);
+}
+
+
+.trending h2
+{
+    font-weight: 700;
+}
+
+.reviews
+{
+    background-color: #fff;
+
+    padding: 60px 60px 80px;
+    overflow: hidden;
+}
+
+.reviews span
+{
+    color: var(--mainColor);
+}
+
+
+.reviews h2
+{
+    font-weight: 700;
+}
+
+.review
+{
+    background-color: #fff;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.review img
+{
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.review button
+{
+    background-color: var(--mainColor);
+    border: none;
+}
+
+.review .field
+{
+    color: var(--mainColor);
+    padding: 5px 10px;
+    background-color: rgba(255, 152, 0,0.18);
+    border-radius: 13px;
+}
+
+
+.review .stars i
+{
+    color: yellow;
+  font-size: 10px;
+}
+
+.review .stars span
+{
+    font-size: 14px;
+}
+
+.review .enrolling i
+{
+    color: #555;
+    font-size: 14px;
+}
