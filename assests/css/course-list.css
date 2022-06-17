@@ -5,13 +5,27 @@
     object-fit: cover;
 }
 
-.play i
+.play span
 {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .course
 {
     box-shadow: 1px 0px 15px 0px rgba(219, 195, 195, 0.64)
+
+}
+
+@media screen and (max-width: 575px)
+{
+    .play span
+{
+    font-size: 14px;
+}
+
+.courseDetails span
+{
+    font-size: 13px;
+}
 
 }

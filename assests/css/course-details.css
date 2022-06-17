@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 :root {
@@ -75,7 +76,7 @@ header .key a {
 
 .detailsOfCourse .nav-link {
     display: block;
-    padding: 0.8rem 1.2rem;
+    padding: 0.6rem 1.0rem;
     background: #ffffff;
     font-weight: 600;
     font-size: 14px;
@@ -211,8 +212,10 @@ header .key a {
 }
 
 .fullBrdr {
-    border: 2px solid rgba(255, 152, 0, 0.12)
+    border: 2px solid rgba(255, 152, 0, 0.12);
+    
 }
+
 
 
 .overview .card-body span i {
@@ -281,6 +284,10 @@ header .key a {
         content: none !important;
 
     }
+
+    .courseDetails span, .courseDetails i {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -297,11 +304,10 @@ header .key a {
         content: none !important;
 
     }
+    .courseDetails span, .courseDetails i {
+        font-size: 13px;
+    }
 }
-
-
-
-
 
 
 
@@ -309,6 +315,9 @@ header .key a {
     .courseImg img {
         width: 100%;
         height: 100%;
+    }
+    .courseDetails span, .courseDetails i {
+        font-size: 13px;
     }
 }
 
@@ -320,6 +329,9 @@ header .key a {
 
     .courseDetails h3 {
         margin-top: 10px;
+    }
+    .courseDetails span, .courseDetails i {
+        font-size: 14px;
     }
 }
 
@@ -458,7 +470,7 @@ form button
 
 .crsDtlsInfo span
 {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 

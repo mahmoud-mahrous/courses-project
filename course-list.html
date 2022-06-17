@@ -125,15 +125,13 @@
         
       </div>
   </div>
-  
-</div>
-  <!-- start navbar -->
+    <!-- start navbar -->
  
   <nav class="navbar navbar-expand-lg  w-100">
     <div class="container px-0">
 
       <i class="fas fa-align-justify py-1 px-3 open d-none hideI" id="open"></i>
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="index.html">Navbar</a>
       <p class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -143,23 +141,19 @@
         <ul class="navbar-nav mr-auto">
           <!-- Dropdown Master menu links for nav Home -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategory" role="button"
+            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownCategory" role="button"
               data-toggle="dropdown" aria-expanded="false">
               Home
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownCategory">
-              <a class="dropdown-item" href="#">
+              <a class="dropdown-item" href="index.html">
                 <!-- Default dropright button -->
                 <div class="btn-group dropright w-100">
                   <span class="btn bg-transparent d-flex align-items-center justify-content-between dropdown-toggle"
                     data-toggle="dropdown" aria-expanded="false">
                     Home 1
                   </span>
-                  <div class="dropdown-menu">
-                    <!-- Dropdown menu links -->
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                  
                 </div>
               </a>
             </div>
@@ -247,21 +241,10 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownCategory">
               <!-- item 1 for Courses -->
-              <a class="dropdown-item" href="about-us-page.html">
-                <!-- Default dropright button -->
-                <div class="btn-group dropright w-100">
-                  <span class="btn bg-transparent d-flex align-items-center justify-content-between dropdown-toggle"
-                    data-toggle="dropdown" aria-expanded="false">
-                    About Us <span class="droprightSpan"></span>
-                  </span>
-                  <div class="dropdown-menu">
-                    <!-- Dropdown menu links -->
-                    <a class="dropdown-item" href="about-us-page.html">Something else here</a>
-                  </div>
-                </div>
-              </a>
+              <a class="dropdown-item pl-2" href="about-us-page.html">About Us</a>
+            </a>
 
-              <div class="dropdown-divider"></div>
+            <div class="dropdown-divider"></div>
               <!-- item 2 for Courses -->
 
               <a class="dropdown-item pl-2" href="contact-us.html">Contact</a>
@@ -318,7 +301,7 @@
 
 
    <section class="gray p-5">
-     <div class="container">
+     <div class="">
        <div class="row">
          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-3">
            <div class="side bg-white p-3">
@@ -434,27 +417,99 @@
          </div>
 
          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
-           <div class="shortBy bg-white ">
-             <div class="row justify-content-between text-md-center align-items-center no-gutters pl-2">
-               <div class="col-lg-4 col-md-5 col-sm-12  col-sm-6 pl-sm-4">
-                 <h6>Showing 1-25 Of 72</h6>
-               </div>
-               <div class="col-lg-6 col-md-7 col-sm-12 col-sm-6 pl-sm-4">
-                <span class="">short by:</span>
-                <select name="" id="">
-                  <option value="most">Most Rated</option>
-                  <option value="most">Most Viewed</option>
-                  <option value="most">News Listing</option>
-                </select>
-                <span class="span active"><i class="fas fa-th-large"></i></span>
-                <span class="span"><i class="fas fa-list"></i></span>
+          <div class="shortBy bg-white pl-2 ">
+            <div class="row justify-content-around text-md-center align-items-center">
+              <div class="col-lg-4 col-md-4  col-sm-11 ">
+                <h6>Showing 1-25 Of 72</h6>
               </div>
+              <div class="col-lg-6 col-md-7  col-sm-11 ">
+               <span class="font">short by:</span>
+               <select name="" id="" class="mb-3">
+                 <option value="most font">Most Rated</option>
+                 <option value="most font">Most Viewed</option>
+                 <option value="most font">News Listing</option>
+               </select>
+               <a href="course-grid.html"><span class="span active font"><i class="fas fa-th-large"></i></span></a>
+              <a href="course-list.html"> <span class="span font"><i class="fas fa-list"></i></span></a>
              </div>
-           </div>
+            </div>
+          </div>
 
            <div class="coursesFiltered mt-4">
              <div class="row" id="courses">
-               
+              <div class="col-xl-12 col-sm-12 mt-4">
+                <div class="course p-2">
+                 <div class="row justify-content-between no-gutters">
+                     <div class=" ">
+                      <div class="courseImg">
+                          <a href="#">
+                            <img src="assests/images/rKkcbHL.jpg" class="" alt="">
+                          </a>
+                        </div>
+                     </div>
+                 
+                     <div class="col-12 pl-2">
+                  <div class="courseKey  py-1">
+                    <div class="row justify-content-between align-items-center">
+                      <div class="col-3 mt-2">
+                        <a href="#">deesign</a>
+                      </div>
+                  
+                    </div>
+                  </div>
+                  <div class="courseDetails pb-3 ">
+                    <h4 class="h6 pt-2 mb-0 pb-0"><a href="#">UI/UX Design pattern for succesfull software Applications</a></h4>
+                    <span class="font-italic mt-0 mb-3">By</span><span> Adam Wilson</span>
+                    <div class="row justify-content-between align-items-center mt-2 w-100">
+                      <div class="col-4">
+                        <i class="fa fa-video "></i>
+                        <span>24 Videos</span>
+                      </div>
+                      <div class="col-4">
+                        <i class="fa fa-clock text-danger"></i>
+                        <span>24 Videos</span>
+                      </div>
+                      <div class="col-4">
+                        <i class="fa fa-video text-success"></i>
+                        <span>24 Videos</span>
+                      </div>
+                    </div>
+                  </div>
+                 
+              
+                  <div class="coursePrice mt-3">
+                    <div class="row justify-content-around align-items-center px-2">
+                     <div class="col-6">
+                      <p class="h4">$<span>144</span></p>
+                     </div>
+                     <div class="col-6 text-right">
+                      <button class="btn">Enroll Now</button>
+                     </div>
+                    </div>
+                  </div>
+              </div>
+                </div>
+                <div class="dropdown-divider"></div>
+              
+                <div class="row justify-content-between no-gutters play ">
+                    <div class="col-3">
+                       <div class="d-flex align-items-center justify-content-center">
+                          <span class=""><i class="fa fa-play text-success mr-1 pt-2"></i></span><span>play Now</span>
+                       </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="d-flex align-items-center">
+                          <span class=""><i class="fa fa-lightbulb text-info  mr-1 pt-2"></i></span><span class="mr-4">Beginning</span>
+                       </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="d-flex align-items-center">
+                        <span class=""><i class="fa fa-lightbulb text-info  mr-1 pt-2"></i></span><span class="mr-4">Beginning</span>
+                     </div>
+                </div>
+                </div>
+              </div>
+               </div>
                
                </div>
              </div>
